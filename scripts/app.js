@@ -26,7 +26,7 @@ particlesJS('particles-js',
         "value": "#000000"
       },
       "shape": {
-        "type": "triangle",
+        "type": "circle",
         "stroke": {
           "width": 0,
           "color": "#000000"
@@ -55,7 +55,7 @@ particlesJS('particles-js',
         "random": true,
         "anim": {
           "enable": false,
-          "speed": 20,
+          "speed": 40,
           "size_min": 0.1,
           "sync": false
         }

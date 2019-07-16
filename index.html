@@ -18,8 +18,8 @@
 </head>
 
 <body>
-  <div class="">
-    <nav class="navbar navbar-expand-lg navbar-dark indigo">
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
       <div class="container">
         <!-- Brand icon -->
         <a class="navbar-brand" href="#">Brand</a>
@@ -39,7 +39,7 @@
               </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">About
+              <a class="nav-link" href="#">Projects
                 <span class="sr-only">(current)</span>
               </a>
             </li>
@@ -71,22 +71,299 @@
     </nav>
 
     <div id="particles-js"></div>
-    <div class="row">
-      <div col="4">
+    <div class="row landing">
+      <div class="col-sm-4">
         <div class="home-inner">
           <!---Contains profile image home section-->
           <img id="avatar-pic" src="images/placeholder-profile-pic.png" alt="">
         </div>
       </div>
-      <div class="8">
+      <div class="col-sm-8">
         <h1>Hello, I'm</h1>
-        <h1>Antony Ng'ang'a</h1>
+        <h1>Antony Ng'ang'a Maina</h1>
         <h3>Web || Android developer</h3>
         <p>Kenya</p>
+        <br>
+        <p>I imagine, i create and i deliver.</p>
+        <p><i class="fas fa-quote-left"></i>Imagination is the beginning of creation. You imagine what you desire, you
+          will what you imagine, and at last, you create what you will.<i class="fas fa-quote-right" id="f-right"></i>
+        </p>
+        <hr>
+        <p>George Bernard Shaw</p>
       </div>
     </div>
 
-    
+    <!--Section: projects-->
+    <section id="projects" class="text-center py-5" style="background-color: #eee;">
+
+      <!-- Container -->
+      <div class="container">
+
+        <!-- Section heading -->
+        <h2 class="h1-responsive font-weight-bold mb-5">Projects</h2>
+        <!-- Section description -->
+        <p class="grey-text w-responsive mx-auto mb-5">Some of the projects i have worked on.</p>
+
+        <!-- Grid row -->
+        <div class="row text-center">
+
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+            <!--Featured image-->
+            <div class="view overlay rounded z-depth-1">
+              <img src="images/prof.jpg" class="img-fluid" alt="project image">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <!--Excerpt-->
+            <div class="card-body pb-0">
+              <h4 class="font-weight-bold my-3">Project Title</h4>
+              <p class="grey-text">An application that helps a salon owner manage stylist and clients in a salon
+              </p>
+              <a class="btn btn-purple btn-sm"><i class="fa fa-clone left"></i> View project</a>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+            <!--Featured image-->
+            <div class="view overlay rounded z-depth-1">
+              <img src="images/prof.jpg" class="img-fluid" alt="Sample project image">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <!--Excerpt-->
+            <div class="card-body pb-0">
+              <h4 class="font-weight-bold my-3">Project Title</h4>
+              <p class="grey-text">An application that helps a salon owner manage stylist and clients in a salon
+              </p>
+              <a class="btn btn-purple btn-sm"><i class="fa fa-clone left"></i> View project</a>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-6">
+            <!--Featured image-->
+            <div class="view overlay rounded z-depth-1">
+              <img src="images/prof.jpg" class="img-fluid" alt="Sample project image">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <!--Excerpt-->
+            <div class="card-body pb-0">
+              <h4 class="font-weight-bold my-3">Project Title</h4>
+              <p class="grey-text">An application that helps a salon owner manage stylist and clients in a salon
+              </p>
+              <a class="btn btn-purple btn-sm"><i class="fa fa-clone left"></i> View project</a>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </div>
+      <!-- Container -->
+
+    </section>
+    <!--Section: projects-->
+
+    <!-- Skills section -->
+    <section id="service">
+      <div class="container">
+        <h2>Skills</h2>
+        <h6>Some of my skills are not limited to:</h6>
+        <div class="service_wrapper">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fab fa-python"></i></span> </div>
+              <div class="service_block">
+  
+                <h3 class="animated fadeInUp wow">Python</h3>
+                <p class="animated fadeInDown wow">Django & Flask frameworks.</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fab fa-angular"></i></span>
+              </div>
+              <div class="service_block">
+                <h3 class="animated fadeInUp wow">Angular</h3>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fab fa-html5"></i></span>
+              </div>
+              <div class="service_block">
+  
+                <h3 class="animated fadeInUp wow">Design</h3>
+                <p class="animated fadeInDown wow">HTML & CSS</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fab fa-js"></i></span>
+              </div>
+              <div class="service_block">
+  
+                <h3 class="animated fadeInUp wow">Javascript</h3>
+                <p class="animated fadeInDown wow">JQuery</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Section: contact-->
+    <section id="contact" class="py-5" style="background-color: #eee;">
+
+      <div class="container">
+
+          <!-- Section heading -->
+          <h2 class="h1-responsive font-weight-bold text-center mb-5">Contacts</h2>
+          <!-- Section description -->
+          <p class="text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p>
+
+          <!-- Grid row -->
+          <div class="row">
+
+              <!-- Grid column -->
+              <div class="col-md-9 mb-md-0 mb-5">
+
+              <form>
+
+                  <!-- Grid row -->
+                  <div class="row">
+
+                  <!-- Grid column -->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                      <input type="text" id="contact-name" class="form-control">
+                      <label for="contact-name" class="">Your name</label>
+                      </div>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                      <input type="text" id="contact-email" class="form-control">
+                      <label for="contact-email" class="">Your email</label>
+                      </div>
+                  </div>
+                  <!-- Grid column -->
+
+                  </div>
+                  <!-- Grid row -->
+                  
+                  <!-- Grid row -->
+
+                  <!-- Grid row -->
+                  <div class="row">
+
+                  <!-- Grid column -->
+                  <div class="col-md-12">
+                      <div class="md-form">
+                      <textarea type="text" id="contact-message" class="form-control md-textarea" rows="3"></textarea>
+                      <label for="contact-message">Your message</label>
+                      </div>
+                  </div>
+                  <!-- Grid column -->
+
+                  </div>
+                  <!-- Grid row -->
+
+              </form>
+
+              <div class="text-center text-md-left">
+                  <a class="btn btn-purple btn-md">Send</a>
+              </div>
+
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 text-center">
+              <ul class="list-unstyled mb-0">
+                  <li>
+                  <i class="fa fa-map-marker fa-2x purple-text"></i>
+                  <p>Nairobi, Kenya</p>
+                  </li>
+                  <li>
+                  <i class="fa fa-phone fa-2x mt-4 purple-text"></i>
+                  <p>+254700-199726</p>
+                  </li>
+                  <li>
+                  <i class="fa fa-envelope fa-2x mt-4 purple-text"></i>
+                  <p class="mb-0">antonynganga05@gmail.com</p>
+                  </li>
+              </ul>
+              </div>
+              <!-- Grid column -->
+
+          </div>
+          <!-- Grid row -->
+
+      </div>
+
+  </section>
+  <!--Section: contact-->
+
+</main>
+<!--Main layout-->
+
+<!-- Footer -->
+<footer class="page-footer font-small pt-4">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+  <!-- Social buttons -->
+  <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+      <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook"> </i>
+      </a>
+      </li>
+      <li class="list-inline-item">
+      <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+      </a>
+      </li>
+      <li class="list-inline-item">
+      <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus"> </i>
+      </a>
+      </li>
+      <li class="list-inline-item">
+      <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin"> </i>
+      </a>
+      </li>
+      <li class="list-inline-item">
+      <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble"> </i>
+      </a>
+      </li>
+  </ul>
+  <!-- Social buttons -->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+  <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+  
+</footer>
+<!-- Footer -->
+  
 
 
     <!-- JQuery -->
