@@ -17,10 +17,6 @@
 
  mail($to,$email_subject,$email_body,$headers);
 
-<<<<<<< HEAD
  header("Location: index.html"); 
-=======
- header("Location: index.html");
  
->>>>>>> gh-pages
 ?>
